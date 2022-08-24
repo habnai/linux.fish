@@ -94,8 +94,8 @@ function install_dotfiles
 
 	link_file $DOTFILES_ROOT/fish/plugins $__fish_config_dir/fish_plugins backup
 		or abort plugins
-	link_file $DOTFILES_ROOT/fish/gruvbox.theme $__fish_config_dir/themes/gruvbox.theme backup
-		or abort gruvbox.theme
+	link_file $DOTFILES_ROOT/fish/darcula-alacritty.theme $__fish_config_dir/themes/darcula-alacritty.theme backup
+		or abort darcula-alacritty.theme
 	link_file $DOTFILES_ROOT/system/bat.config $HOME/.config/bat/config backup
 		or abort bat
 	link_file $DOTFILES_ROOT/htop/htoprc $HOME/.config/htop/htoprc backup
@@ -130,7 +130,7 @@ fisher update
 	and success 'plugins'
 	or abort 'plugins'
 
-yes | fish_config theme save gruvbox
+yes | fish_config theme save darcula-alacritty
 	and success 'colorscheme'
 	or abort 'colorscheme'
 
@@ -144,7 +144,9 @@ for installer in */install.fish
 		or abort $installer
 end
 
-if ! grep (command -v fish) /etc/shells
+if grep (command -v fish) /etc/shells >/dev/null
+	info 'fish shell is already registered to valid login shell'
+else
 	command -v fish | sudo tee -a /etc/shells
 		and success 'added fish to /etc/shells'
 		or abort 'setup /etc/shells'
