@@ -1,0 +1,17 @@
+be5invis.toml
+dawhite.mustache
+dracula-theme.theme-dracula
+eamodio.gitlens
+EditorConfig.EditorConfig
+heptio.jsonnet
+logerfo.procfile-support
+ms-azuretools.vscode-docker
+ms-vscode.Go
+patbenatar.advanced-new-file
+pnp.polacode
+quicktype.quicktype
+shanoor.vscode-nginx
+timonwong.shellcheck
+wmaurer.change-case
+skyapps.fish-vscode
+

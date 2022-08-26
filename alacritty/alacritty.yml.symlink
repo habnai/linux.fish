@@ -18,12 +18,11 @@ window:
     y: 5
   dynamic_padding: true
   opacity: 0.95
-  decorations: none
+  decorations: full
   dynamic_title: true
   dimensions:
-   columns: 240
-   lines: 80
-  startup_mode: Maximized
+   columns: 80
+   lines: 24
 
 scrolling:
   history: 10000
@@ -41,15 +40,14 @@ bell:
 
 font:
   normal:
-    family: MonoLisa Nerd Font
+    family: Menlo
   bold:
-    family: MonoLisa Nerd Font
+    family: Menlo
   italic:
-    family: MonoLisa Nerd Font
+    family: Menlo
   bold_italic:
-    family: MonoLisa Nerd Font
+    family: Menlo
   size: 14.0
-  use_thin_strokes: true
 
 cursor:
   style:
