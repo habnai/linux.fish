@@ -96,8 +96,6 @@ function install_dotfiles
 		or abort plugins
 	link_file $DOTFILES_ROOT/fish/darcula-alacritty.theme $__fish_config_dir/themes/darcula-alacritty.theme backup
 		or abort darcula-alacritty.theme
-	link_file $DOTFILES_ROOT/system/bat.config $HOME/.config/bat/config backup
-		or abort bat
 	link_file $DOTFILES_ROOT/htop/htoprc $HOME/.config/htop/htoprc backup
 		or abort htoprc
 	link_file $DOTFILES_ROOT/ssh/config.dotfiles $HOME/.ssh/config.dotfiles backup
