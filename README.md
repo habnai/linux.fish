@@ -59,7 +59,6 @@ For macOS, I recommend:
 
 For both Linux and macOS:
 
-- [`bat`](https://github.com/sharkdp/bat) a `cat` with wings;
 - [`delta`](https://github.com/dandavison/delta) for better git diffs;
 - [`dog`](https://dns.lookup.dog) the command-line DNS client;
 - [`exa`](https://the.exa.website) a modern replacement for `ls`;
@@ -74,7 +73,6 @@ For both Linux and macOS:
 To install them all with `brew`:
 
 ```console
-$ brew install fish bat git-delta dog exa fd fzf gh grc kubectx ripgrep starship
 ```
 
 On Ubuntu:

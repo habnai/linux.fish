@@ -9,5 +9,4 @@ grc
 fzf
 build-essential
 fd-find
-bat
 htop
