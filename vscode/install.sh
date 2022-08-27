@@ -1,5 +1,8 @@
 #!/bin/sh
 if command -v code >/dev/null; then
+	if [ "$(uname -s)" = "Linux" ]; then
+		VSCODE_HOME="$HOME/.config/Code"
+	fi
 	mkdir -p "$VSCODE_HOME/User"
 
 	ln -sf "$DOTFILES/vscode/settings.json" "$VSCODE_HOME/User/settings.json"
