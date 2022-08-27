@@ -4,4 +4,4 @@
 # local folder which is in PATH.
 if command -qs fdfind
 	ln -sf (which fdfind) ~/.bin/fd
-endh
+end
