@@ -3,5 +3,3 @@ if status is-interactive
 end
 
 fish_add_path $DOTFILES/bin $HOME/.bin $HOME/.local/bin
-alias fdfind="fd"
-alias update="sudo apt-get update"

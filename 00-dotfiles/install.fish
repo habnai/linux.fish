@@ -12,9 +12,6 @@ for f in $DOTFILES/*/functions
 	set -Up fish_function_path $f
 end
 
-if command -qs fdfind
-	ln -sf (which fdfind) ~/.local/bin/fd
-end
 
 for f in $DOTFILES/*/conf.d/*.fish
 	ln -sf $f ~/.config/fish/conf.d/(basename $f)
