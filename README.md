@@ -59,15 +59,12 @@ For macOS, I recommend:
 
 For both Linux and macOS:
 
-- [`delta`](https://github.com/dandavison/delta) for better git diffs;
-- [`dog`](https://dns.lookup.dog) the command-line DNS client;
 - [`exa`](https://the.exa.website) a modern replacement for `ls`;
 - [`fd`](https://github.com/sharkdp/fd) a simple, fast and user-friendly alternative to `find`;
 - [`fzf`](https://github.com/junegunn/fzf) for a fuzzy-finder, used in `,t` on vim, for example;
 - [`gh`](https://github.com/cli/cli) for more GitHub integration with the terminal;
 - [`grc`](https://github.com/garabik/grc) to colorize command's outputs;
 - [`starship.rs`](https://starship.rs) the shell we are using;
-- [`kubectx`](https://github.com/ahmetb/kubectx) for better Kubernetes context and namespace switch;
 - [`ripgrep`](https://github.com/BurntSushi/ripgrep) a faster `grep`;
 
 To install them all with `brew`:
